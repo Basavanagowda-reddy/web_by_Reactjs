@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*Home.jsx start*/
+#homed1 {
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+  padding: 20px;
+  background: linear-gradient(to right, #ce0fa5, #0b99e6); /* Stylish gradient */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  margin: 20px auto;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+#homed1 a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px 18px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+#homed1 a:hover {
+  background-color: #ffffff;
+  color: #2575fc;
+  box-shadow: 0 0 10px #fff;
+}
+
+/*Home.jsx end*/
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+}
+
+.logo img {
+  height: 60px;
+  width: auto;
+}
+
+.search-bar {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  max-width: 600px;
+}
+
+.search-bar input {
+  width: 70%;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.search-bar button {
+  padding: 8px 16px;
+  background-color: #ff3f6c;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #e0335e;
+}
+
+.header-links {
+  display: flex;
+  gap: 20px;
+}
+
+.header-links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+  font-size: 18px;
+}
+
+.header-links a:hover {
+  color: #ff3f6c;
+}
+
+
+
+/*Prindetails component */
+/* 
+#div1{
+    height: 30px;
+} */
+
+
+
+
+/*Nav bar design*/
+#nav1{
+    height: 40px;
+    /* background-color: red; */
+}
+#nav2{
+    height: 30px;
+    background-color: #da114d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    
+}
+#dd1{
+    height: 40px;
+    width: 30%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dd2{
+    height: 30px;
+    width: 40%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#dd3{
+    height: 60px;
+    width: 100%;
+    background-color: #d3560dcc;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#input{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+#btn{
+    height: 35px;
+    width: 65px;
+}
+#img{
+    width: 20%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+#dd4{
+    width: 45%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#dd5{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+#images{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 350px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+#Box1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    height: 200px;
+    width: 100%;
+    position: relative;
+    top: 50px;
+    
+}
+.box2{
+    height: 250px;
+   border: 4px solid white;
+   width: 25%;
+   background-color: rgb(14, 147, 209);
+   
+}
+
+/* #foot{
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: whitesmoke;
+    
+}
+.foot1{
+    height: 200px;
+    width: 30%;
+    border: 2px solid black;
+    background-color: rgb(27, 97, 202);
+    
+}
+
+#vidbtn{
+    height: 25px;
+    width: 50px;
+} */
+
+.footer-container {
+  width: 100%;
+  background-color: #1f1f1f;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  position: relative;
+  top: 120px;
+  
+}
+
+.footer-section {
+  margin-bottom: 30px;
+}
+
+.payment-logos img,
+.social-logos img {
+  height: 50px;
+  margin: 10px;
+  transition: transform 0.2s;
+}
+
+.payment-logos img:hover,
+.social-logos img:hover {
+  transform: scale(1.1);
+}
+
+.footer-section h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.footer-container p {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+
+
+
+
+#images {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+  align-items:center ;
+  gap: 25px;
+}
+
+#images div {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+  background-color: #fff;
+}
+
+#images div:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+
+/* CSS: Card Styles */
+

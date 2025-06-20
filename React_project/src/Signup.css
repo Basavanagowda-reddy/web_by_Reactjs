@@ -1,0 +1,68 @@
+#d1{
+    padding-right: 70px;
+    /* background-color: red; */
+}
+#d2{
+    height: 50px;
+   
+    /* background-color: red; */
+}
+
+#form1{
+    background-color: rgb(16, 126, 205);
+     padding: 40px 50px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 400px;
+    max-width: 500px;
+    backdrop-filter: blur(8px);
+    height: 580px;
+    transform: matrix(1);
+}
+.in1{
+    /* height: 30px; */
+    width: 100%;
+    border: 2px solid  #d1d5db;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    padding: 10px;
+    font-size: 15px;
+}
+.in1:focus{
+    border-color: #6366f1;
+    outline: none;
+}
+.lb1{
+     padding-right: 170px;
+     font-weight: 500;
+    font-size: 18px;
+}
+#name2{
+    padding-right: 325px;
+    font-weight: 500;
+    font-size: 18px;
+}
+#cp1{
+    padding-right: 100px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#sgin{
+     width: 105%;
+    background-color:#e58046;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+
+/* carsoual */
+/* .carousel .slide img {
+  height: 450px;
+  object-fit: cover;
+} */
